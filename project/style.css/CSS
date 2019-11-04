@@ -1,0 +1,80 @@
+body{
+    background-color: #FFF0f5;
+    width: 100vw;
+    text-align: center;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.center{
+    width: 50%;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+ h1 {
+    font-family: 'Georgia';
+    font-size: 40px;
+    color: rgb(110, 8, 8);
+    padding: 0em 0em 0em 0em;
+    }
+h2 {
+    font-family: 'Georgia';
+    font-size: 28px;
+    color: rgb(110, 8, 8);
+    padding: 0em 0em 0em 0em;
+    }
+h3 {
+    font-family: 'Georgia';
+    font-size: 20px;
+    color: rgb(110, 8, 8);
+    padding: 0em 0em 0em 0em;
+    }
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: rgb(110, 8, 8);
+    width: 15%;
+    margin: 0 auto;
+}
+
+nav ul li{
+    margin: 0px 20px;
+}
+
+.home-images{
+    margin: 40px auto;
+}
+
+.home-images-flex{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.home-images-flex img{
+    margin: 10px;
+}
+
+.home-images-text{
+    width: 75s%;
+}
+ul {
+    list-style-type: disc;
+    margin: 10;
+    padding: 0;
+  }
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
