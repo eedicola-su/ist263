@@ -5,36 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nyx Cosmetics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <nav>
-        <ul>
-        <li><a href="home-page.html"> Home Page </a></li>
-        <li><a href="High-End.html"> Dior </a></li>
-        <li><a href="#"> Nyx </a></li>
-        </ul>
-        </nav>
-
-        <h1>
-            Nyx Cosmetics
-        </h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Cosmetic Comparisons</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home-page.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="High-End.html">Dior</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Low-End.html">Nyx</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+      <h1 class="display-1">Nyx Cosmetics</h1>
         <div class="NYX-images">
-                <img src="../images/nyx-logo.png" alt="Nyx Logo">
-                <img src="../images/nyx-store.jpeg" alt="Nyx Store">
+                <img src="images/nyx-logo.png" alt="Nyx Logo">
+                <img src="images/nyx-store.jpeg" alt="Nyx Store">
         </div>
-        <div class="text">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
             <p>
                  Nyx Cosmetics is a drugstore makeup brand priced inexpensively in order to give customers the ability to get quality makeup at a lower price point. Nyx is a subsidiary of L'Oreal Cosmetics which also owns makeup brands like Maybelline, IT Cosmetics, Urban Decay, and many others. Nyx is sold at a variety of retailers including Target, Ulta, and their own Nyx stores. In the video below, Jeffree reviews a full face of products from this brand to give an honest review of them.
                  </p>
                 </div>
-                <h2>Most Popular Nyx Products</h2>
-
-                <table style="width:100%">
-                  <tr>
-                    <th>Product</th>
-                    <th>Cost</th> 
-                  </tr>
+            
+                <div class="container">
+                    <h2>Most Popular Nyx Products</h2>      
+                    <div class="table-responsive"></div>  
+                    <table class="table table-bordered table-sm">
+                      <thead>
+                        <table class="table">
+                          <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">Nyx Product</th> 
+                            <th scope="col">Cost</th> 
+                          </tr>
+                        </thead>
+                      <tbody>
+                   
                   <tr>
                     <td>Butter Glosses</td>
                     <td>2-5$</td>
@@ -81,5 +102,9 @@
             <p>
               <a href="https://www.flickr.com/photos/southbeachcars/31225069538" target= "_blank">NYX Storefront</a> 
             </p>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html> 
