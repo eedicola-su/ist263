@@ -1,5 +1,5 @@
 body{
-    background-image: url('ist263/project/images/marble.jpg');
+    background-image: url('../images/marble.jpg');
     width: 100vw;
     text-align: center;
 }
